@@ -1,0 +1,66 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.line{
+    background-color: navy;
+    margin:2px auto;
+    height:4px;
+}
+nav{
+    display: flex;
+}
+nav h2{
+    font-size: 2.5rem;
+    color: navy;
+    margin:12px auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 1px rgb(59, 59, 65);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container form{
+    border: 3px solid navy;
+    border-radius: 8px;
+    margin:60px auto;
+    padding:60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    font-size: 2rem;
+}
+.container form label{
+    margin:5px auto;
+    text-shadow: 1px 1px 1px #555050;
+    justify-content: center;
+    align-items: center;
+}
+.container form input{
+    font-size: 1.3rem;
+    margin: 5px auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container form .enter{
+   border: 2px solid navy;
+   box-shadow:5px 5px 3px #aaaaaa ;
+   padding: 6px 20px;
+   font-size: 1.5rem;
+   font-weight: bold;
+   border-radius: 15px;
+   margin: 10px ;
+   background-color: rgba(15, 15, 92, 0.932);
+   color: white;
+}
+#file1{
+    width: 400px;
+    height: 100px;
+}
