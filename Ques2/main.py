@@ -10,7 +10,7 @@ from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 
-app = Flask(__name__, template = 'template', static = 'static')
+app = Flask(__name__, template_folder = 'template', static_folder = 'static')
 
 
 app.secret_key='#the#secret#key#'
@@ -43,7 +43,7 @@ def home():
 
         X_test = vectorizer.transform( [mail] )
         prediction = classifier.predict(X_test)
-        msg = prediction
+        msg = "This message is " + prediction
 
 
 
